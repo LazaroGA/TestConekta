@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrangedCommand.cs" />
+    <Compile Include="Canvas.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="CommandParameter.cs" />
+    <Compile Include="CommandType.cs" />
+    <Compile Include="Imager.cs" />
+    <Compile Include="Pixel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

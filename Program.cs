@@ -10,6 +10,16 @@ namespace TestConekta
     {
         static void Main(string[] args)
         {
+            Imager imager = new Imager();
+
+            do
+            {
+                imager.GetCommand();
+                if (imager.Command.IsValid)
+                {
+                    imager.ExecuteCommand();
+                }
+            } while (true);
         }
     }
 }
