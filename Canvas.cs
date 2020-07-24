@@ -106,6 +106,10 @@ namespace TestConekta
         internal void FillRegion(int x, int y, char color)
         {
 
+            Console.WriteLine("Not yet implemented :( ");
+            return;
+
+
             if (!IsInitialized)
             {
                 Console.WriteLine("Canvas is not initialized!");
@@ -123,6 +127,10 @@ namespace TestConekta
                 if (firstRegionPixel.Color == matrix[rxi, ryi] && pixelIsAdjacent(region, firstRegionPixel))
                 {
                     region.Add(firstRegionPixel);
+                }
+                if (ryi > 1)
+                {
+
                 }
             }
 
